@@ -8,7 +8,7 @@ def load_model(model_file):
         return pickle.load(f)
 
 def kelas_app():
-    rf_model = load_model('BestModel_CLF_GBT_CatBoost.pkl')
+    rf_model = load_model('BestModel_CLF_RF_CatBoost.pkl')
     
     st.title("Prediksi Jenis Rumah")
     st.write("Aplikasi ini membantu user untuk mengecek jenis rumah yang ingin dibeli")
